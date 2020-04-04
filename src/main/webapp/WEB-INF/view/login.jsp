@@ -31,7 +31,13 @@ table{
 <title>Admin Login | Employee Management</title>
 </head>
 <body>
-
+<h1 style="
+    font-family: sans-serif;
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    font-weight: bold;
+">EMPLOYEE MANAGEMENT SYSTEM </h1>
 <form:form action="sucess" modelAttribute="admin">
 <div>
 <table style="
