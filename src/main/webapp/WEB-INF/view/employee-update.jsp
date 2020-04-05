@@ -131,7 +131,7 @@ li a:hover {
 					<td><form:select path="bu">  
         <form:option value="Sales" label="Sales"/>  
         <form:option value="Customer Care" label="Customer Care"/>  
-        <form:option value="Developer" label="developer"/>  
+        <form:option value="Developer" label="Developer"/>  
         <form:option value="Marketing" label="Marketing"/>  
         </form:select>  <form:errors path="bu" cssClass="error"/></td>
 				</tr> 

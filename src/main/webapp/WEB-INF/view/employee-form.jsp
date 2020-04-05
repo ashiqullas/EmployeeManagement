@@ -128,7 +128,12 @@ li a:hover {
 				</tr> 
 				<tr>
 					<td><label>Business Unit</label></td>
-					<td><form:input path = "bu" /><form:errors path="bu" cssClass="error"/></td>
+					<td><form:select path="bu">  
+        <form:option value="Sales" label="Sales"/>  
+        <form:option value="Customer Care" label="Customer Care"/>  
+        <form:option value="Developer" label="Developer"/>  
+        <form:option value="Marketing" label="Marketing"/>  
+        </form:select>  <form:errors path="bu" cssClass="error"/></td>
 				</tr> 
 				<tr>
 					<td><label>Project ID</label></td>
