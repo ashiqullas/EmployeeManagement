@@ -8,7 +8,7 @@
   <name>EmployeeManagement Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-	<springframework.version>5.0.2.RELEASE</springframework.version>
+	<springframework.version>5.2.20.RELEASE</springframework.version>
 </properties>
   
   <dependencies>
